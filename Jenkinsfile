@@ -7,7 +7,7 @@ pipeline {
               {
               echo "Hi there!"
               echo "How's the day!"               
-              
+              echo "This is the last statement"              
               }
             }
        }
