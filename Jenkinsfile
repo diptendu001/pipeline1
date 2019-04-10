@@ -5,8 +5,9 @@ pipeline {
              {
             steps
               {
-               bash javac  HelloWorld.java
-               bash java HelloWorld 
+              echo "Hi there!"
+              echo "How's the day!"               
+              
               }
             }
        }
