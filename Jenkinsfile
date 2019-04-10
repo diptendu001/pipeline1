@@ -5,8 +5,8 @@ pipeline {
              {
             steps
               {
-               javac HelloWorld.java
-               java HelloWorld 
+               bash javac  HelloWorld.java
+               bash java HelloWorld 
               }
             }
        }
